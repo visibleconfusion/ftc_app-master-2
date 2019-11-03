@@ -61,7 +61,7 @@ public class Encoder_Test extends LinearOpMode {
 
         waitForStart();
         runtime.reset();
-        //test2
+        
         while (opModeIsActive()) {
             telemetry.addData("help me", arm_1.getCurrentPosition());
             telemetry.update();
